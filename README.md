@@ -6,6 +6,8 @@ These customers need to browse specific food items (like a "Spicy Burger" or "La
 We also need a way to manage the full collection of items — a digital list that holds all items and lets us filter by category such as "Drinks" or "Desserts".
 
 Finally, when a user picks items, we need to group them into a single transaction. This transaction object should store the selected items and compute the total cost.
+
+
 # Refection
 The main thing that students need to understand how to model a real-world system using object-oriented four classes : Customer, Item, Menu, and Order. Each has distinct tasks and respond with method calls.  Order.compute_total() logic can be complicated when they try to understnad it and knowing when to use it, since add_item and remove_item both need to keep total_cost in sync, which requires thinking about state carefully.
 
